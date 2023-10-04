@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+.container{
+    color:blueviolet;
+}
+
+.menu>span#info{
+    color:green;
+}
+
+div.container~p{
+    background-color: yellow;
+}

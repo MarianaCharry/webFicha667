@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina web</title>
+</head>
+<body>
+    <h1>Hola Mundo desde HTML</h1>
+<div>
+    <label for="">Nombre:</label>
+    <input  type="text" name="" id=""/>
+</div>
+<div>
+    <label>Fecha Nacimiento</label>
+    <input type="" name="" id=""/>
+</div>
+<div>
+    <label>Frutas</label>
+    ><select name="" id="" multiple>
+        <option value="0" selected disabled>Seleccionar</option>
+        <option value="fresa">Fresa</option>
+        <option value="mora">Mora</option>
+        <option value="limon">Limon</option>
+        <option value="banano">Banano</option>
+    </select>
+</div>
+<div>
+    <label>Comentarios</label>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+</div>
+<div>
+    <h4>Genero</h4>
+    <label>Femenino</label>
+    <input type="radio" name="genero" id="">
+    <label>Masculino</label>
+    <input type="radio" name="genero" id="">
+</div>
+<div>
+    <h4>Pasatiempos</h4>
+    <label>Musica</label>
+    <input type="checkbox" name="pasatiempos[]" id="">
+    <label>Videojuegos</label>
+    <input type="checkbox" name="pasatiempos[]" id="">
+    <label>Futbol</label>
+    <input type="checkbox" name="pasatiempos[]" id="">
+    <label>Leer</label>
+    <input type="checkbox" name="pasatiempos[]" id="">
+</div>
+
+<div>
+    <button>Registrar</button>
+    <input type="button" value="Registrar">
+    <input type="submit" value="Registrar">
+    <a href="#">Registrar</a>
+    <form action="destino.html" method="post">
+
+        <!--Todos los campos de mi formulario-->
+        <label>Correo</label>
+        <input type="email" name="correo" id="" required>
+        <input type="submit" value="Registrar">
+    </form>
+</div>
+<ol>
+    <li>Limon</li>
+    <li>Pera</li>
+    <li>Mango</li>
+</ol>
+
+<ul>
+    <li>Limon</li>
+    <li>Pera</li>
+    <li>Mango</li>
+</ul>
+<!--TABLAS: -->
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th colspan="2">Cantidad</th>
+            <th>Imagen</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Fresa</td>
+                <td>200</td>
+                <td>Unidad</td>
+                <td><img src="./img/fresa.jpg" title="Fresa" width="50px" ></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Mango</td>
+                <td>254</td>
+                <td>Onza</td>
+                <td><img src="./img/mango.jpg" title="Fresa" width="50px" ></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th colspan="2">Cantidad</th>
+                <th>Imagen</th>
+            </tr>
+        </tfoot>
+    </thead>
+</table>
+
+</body>
+</html>

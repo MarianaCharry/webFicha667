@@ -1,0 +1,42 @@
+h1{
+    color: beige;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+.padre{
+    background-color: aliceblue;
+    height: 300px;
+display: flex;
+/*flex-direction: row;
+/*flex-wrap: wrap; /*Para hacer una sumatoria con las cajas, debe ser 100 el total*/
+/*flex-flow: row wrap-reverse;*/
+flex-flow: row nowrap;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.amarillo{
+    width: 20%;
+    height: 200px;
+    background-color: yellow;
+}
+
+.rojo{
+    width: 20%;
+    height: 200px;
+    background-color: red;
+}
+
+.verde{
+    width: 20%;
+    height: 200px;
+    background-color: green;
+}
+
+.morado{
+    width: 20%;
+    height: 200px;
+    background-color: blueviolet;
+}
