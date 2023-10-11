@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <script src="./js/bootstrap.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <!--Menu-->
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarScroll">
+                            <a class="navbar-brand me-auto my-2 my-lg-0" href="#">
+                                <img src="./img/logo.png" height="40px">
+                            </a>
+                            <form class="d-flex" role="search">
+                                <ul class="navbar-nav me-auto my-2 my-lg-0 pe-5 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Link</a>
+                                </li>
+                              </ul>
+                              <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <!--Header-->
+        <div class="row bg-danger d-flex" style="height: 600px; align-items:center">
+            <div class="col-12">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                      <span class="navbar-text" style="text-align: center;">
+                        Pinterest es todo lo que necesitas
+                      </span>
+                    </div>
+                  </nav>
+                <nav class="navbar bg-body-tertiary d-flex " style="margin-top: 20px;">
+                    <div class="container-fluid">
+                      <a class="navbar-brand"></a>
+                      <form class="d-flex" role="search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                      </form>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+
+        <div class="row bg-success d-flex" style="height: 600px; align-items:center">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col bg-warning">
+                  <div class="card" style="height: 300px;">
+                    <div class="mover d-flex" style="justify-content: center;">
+                        <img src="./img/instagram.webp" height="120px" class="card-img-top; rounded-circle" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" style="text-align: center; background:purple; color:white ">Instagram</h5>
+                      <p class="card-text" style="text-align: center;">En instagram tenemos muchas ideas para ti y así podrás crear nuevos proyectos</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col bg-primary">
+                  <div class="card" style="height: 300px;">
+                    <div class="mover d-flex" style="justify-content: center; ">
+                        <img src="./img/facebook.png" height="120px" class="card-img-top; rounded-circle" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" style="text-align: center; background:blue; color:white" >Facebook</h5>
+                      <p class="card-text" style="text-align: center;">Búscanos por Facebook, para tener ideas</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col bg-danger">
+                  <div class="card" style="height: 300px;">
+                    <div class="mover d-flex" style="justify-content: center;">
+                        <img src="./img/logo.png" height="120px" class="card-img-top; rounded-circle" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" style="text-align: center; background:red; color:white" >Pinterest</h5>
+                      <p class="card-text" style="text-align: center;">No olvides seguirnos en nuestra página oficial, Pinterest</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div>
+
+        </div>
+    </div>
+</body>
+</html>
